@@ -8,7 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UILabel *timeLabel;
+    IBOutlet UILabel *hanteiLabel;
+    
+    float time;
+    
+    NSTimer *timer;
+}
+
+-(IBAction)pushBt;
+
+-(void)up;
 
 
 @end
