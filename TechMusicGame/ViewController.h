@@ -13,13 +13,17 @@
     IBOutlet UILabel *hanteiLabel;
     
     float time;
-    
     NSTimer *timer;
+    
+    float speed;
+    UILabel *label;
 }
 
 -(IBAction)pushBt;
 
 -(void)up;
+
+-(NSString *)hantei:(float)number;
 
 
 @end
