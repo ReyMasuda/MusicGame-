@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController{
     IBOutlet UILabel *timeLabel;
@@ -17,6 +18,8 @@
     
     float speed;
     UILabel *label;
+    
+    AVAudioPlayer *audio;
 }
 
 -(IBAction)pushBt;
