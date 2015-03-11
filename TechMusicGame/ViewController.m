@@ -42,6 +42,12 @@
     //画面サイズから、落とすラベルのスピードを決定する
     CGRect appFrame =[[UIScreen mainScreen]applicationFrame];
     speed = appFrame.size.height / 1.2;
+    
+    //音楽を再生する
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"01 Rage (Original Mix)" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    audio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    [audio play];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE08BBC41AAF4F3B005C98A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE08BBC31AAF4F3B005C98A1 /* AVFoundation.framework */; };
+		CE2331F91AB0203200DF8DEB /* 01 Rage (Original Mix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE2331F81AB0203200DF8DEB /* 01 Rage (Original Mix).mp3 */; };
 		CE93F59C1AAF39CB00C5779D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93F59B1AAF39CB00C5779D /* main.m */; };
 		CE93F59F1AAF39CB00C5779D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93F59E1AAF39CB00C5779D /* AppDelegate.m */; };
 		CE93F5A21AAF39CB00C5779D /* TechMusicGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE93F5A01AAF39CB00C5779D /* TechMusicGame.xcdatamodeld */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		CE08BBC31AAF4F3B005C98A1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE2331F81AB0203200DF8DEB /* 01 Rage (Original Mix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Rage (Original Mix).mp3"; sourceTree = "<group>"; };
 		CE93F5961AAF39CB00C5779D /* TechMusicGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechMusicGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE93F59A1AAF39CB00C5779D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE93F59B1AAF39CB00C5779D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		CE93F58D1AAF39CB00C5779D = {
 			isa = PBXGroup;
 			children = (
+				CE2331F81AB0203200DF8DEB /* 01 Rage (Original Mix).mp3 */,
 				CE93F5981AAF39CB00C5779D /* TechMusicGame */,
 				CE93F5B51AAF39CB00C5779D /* TechMusicGameTests */,
 				CE93F5971AAF39CB00C5779D /* Products */,
@@ -206,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2331F91AB0203200DF8DEB /* 01 Rage (Original Mix).mp3 in Resources */,
 				CE93F5A81AAF39CB00C5779D /* Main.storyboard in Resources */,
 				CE93F5AD1AAF39CB00C5779D /* LaunchScreen.xib in Resources */,
 				CE93F5AA1AAF39CB00C5779D /* Images.xcassets in Resources */,
